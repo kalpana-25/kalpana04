@@ -1,0 +1,62 @@
+cws<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0" />
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <h1> Employee Edit</h1>
+    <form name="RegForm" onsubmit="return validateForm()">
+        <p>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="Name" 
+                placeholder="hukum" />
+            <span id="name-error" class="error-message"></span>
+        </p>
+        <p>
+            <label for="address">Email:</label>
+            <input type="text" id="address" name="Address" 
+                placeholder="hcgupta@cstech.in" />
+            <span id="address-error" class="error-message"></span>
+        </p>
+        <p>
+            <label for="email">Mobile no:</label>
+            <input type="text" id="email" name="EMail" 
+                placeholder="954010044" />
+            <span id="email-error" class="error-message"></span>
+        </p>
+        <p>
+            <label for="address">Designation:</label>
+            <input type="text" id="address" name="Address" 
+                placeholder="HR/MANAGER/SALES" />
+            <span id="address-error" class="error-message"></span>
+        </p>
+        <p></p>
+        <label for="address">Gender:</label>
+        <input type="text" id="address" name="Address" 
+            placeholder="M/F" />
+        <span id="address-error" class="error-message"></span>
+        </p>
+        <p>
+            <label for="subject"> Course:</label>
+            <input type="text" id="address" name="Address" 
+            placeholder="MCA/BCA/BSC" />
+        <span id="address-error" class="error-message"></span>
+        </p>
+        <p>
+            <label for="comment">Img upload:</label>
+            <textarea id="comment" name="Comment"></textarea>
+        </p>
+<p>         
+            
+        <button type="submit">Update</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>
